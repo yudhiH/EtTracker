@@ -53,7 +53,7 @@ Routerpath.post('/login',(req,res)=>{
         if(err || data.length === 0) return res.json({resStatus:"Not Success",queryData:"1",errData:err});
 
         if(data.length > 0) return res.json({resStatus:"Success",queryData:"2",Data:data}); 
-        
+        // this is testing of pipeline.
         })
 });
 
