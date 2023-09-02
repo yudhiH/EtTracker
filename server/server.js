@@ -67,8 +67,6 @@ Routerpath.post('/addTransactionData',(req,res)=>{
         
     })
 }); 
-
-
 // end settings
 app.listen(9000,()=>{
     console.log("running");
