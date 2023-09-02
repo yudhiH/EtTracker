@@ -20,7 +20,7 @@ app.use(cors({
     Credential:true,
     }
 ));
-// changes commit 
+// changes commit   
 const Routerpath = express.Router();
 Routerpath.get("/",(req,res)=>{
     return res.json({Status:"",Message:"running on default"});
